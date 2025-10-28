@@ -238,9 +238,6 @@ h:100 縦100pxで表示
 # 見出しレベル1のテキスト h1-text-center
 ## 見出しレベル2のテキスト h2-text-center
 ### 見出しレベル3のテキスト h3-text-center
-#### 見出しレベル4のテキスト h4-text-center
-##### 見出しレベル5のテキスト h5-text-center
-###### 見出しレベル6のテキスト h6-text-center
 通常のテキスト text-center
 
 ---
@@ -268,9 +265,6 @@ h:100 縦100pxで表示
 #  見出しレベル1のテキスト h1-text-red
 ## 見出しレベル2のテキスト h2-text-red
 ### 見出しレベル3のテキスト h3-text-red
-#### 見出しレベル4のテキスト h4-text-red
-##### 見出しレベル5のテキスト h5-text-red
-###### 見出しレベル6のテキスト h6-text-red
 通常のテキスト text-red
 
 
