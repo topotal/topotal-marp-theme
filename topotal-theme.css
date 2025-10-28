@@ -6,8 +6,15 @@
 @import 'default';
 
 :root {
+    /* Topotalブランドカラー（Figmaデザインより） */
+    --topotal-blue: #1E90D8;
+    --topotal-blue-light: #4A82FF;
+    --topotal-mint: #8FF5E9;
+    --topotal-purple: #C249FF;
+    --topotal-blue-deep: #1765C1;
+
     /* アクセントカラー */
-    --blue-very-deep: #2C67E5;
+    --blue-very-deep: #1E90D8;
     --red-deep: #DF3756;
 
     /* グレースケール（Topotal規定） */
@@ -36,13 +43,13 @@
     --bg-default: #FFFFFF;
 
     /* 標準背景色（白） */
-    --bg-accent: #F3F3F3;
+    --bg-accent: #F0F8FF;
 
-    /* アクセント背景色 */
-    --bg-accent-code: #e1e1e1;
+    /* アクセント背景色（薄い青） */
+    --bg-accent-code: #E3F2FD;
 
-    /* 注釈 */
-    --border-color: #D9D9D9;
+    /* 注釈（青系） */
+    --border-color: #B3D9FF;
 
 
     /* フォントサイズ変数 */
