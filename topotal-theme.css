@@ -427,13 +427,22 @@ section {
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
-        background-color: var(--bg-accent);
+        background: linear-gradient(135deg, var(--topotal-blue) 0%, var(--topotal-blue-light) 100%);
         padding: 100px;
 
 
         h1 {
             text-align: center;
             position: static;
+            color: var(--white);
+        }
+
+        h2 {
+            color: var(--white);
+        }
+
+        p {
+            color: var(--white);
         }
 
         ::after {
