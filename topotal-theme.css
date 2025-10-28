@@ -493,12 +493,36 @@ section {
 
 
     &.section {
-        background-color: var(--bg-accent);
-        padding: 0 100px;
+        background: url('./images/slide_section_background.png') no-repeat center center;
+        background-size: cover;
+        background-color: var(--white);
+        padding: 85.34px;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
 
         h1 {
             position: static;
+        }
+
+        h2 {
+            font-size: 48px;
+            font-weight: 400;
+            letter-spacing: 6.24px;
+            color: var(--gray-dark);
+            line-height: 1;
+            margin: 0;
+        }
+
+        p {
+            font-size: 32px;
+            font-weight: 400;
+            letter-spacing: 4.16px;
+            color: var(--gray-dark);
+            line-height: 1;
+            margin: 0;
         }
 
         ::after {
