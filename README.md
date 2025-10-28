@@ -441,4 +441,10 @@ def hello_world():
 
 ---
 
+## クレジット
+
+このテーマは [classmethod/classmethod-marp-theme](https://github.com/classmethod/classmethod-marp-theme) を参考に作成されています。
+
+---
+
 このテーマはTopotal社の内部使用を目的として作成されています。
