@@ -1,6 +1,7 @@
 ---
 marp: true
 paginate: true
+math: true
 theme: topotal
 title: サンプルスライド
 description: サンプルスライドです。
@@ -369,7 +370,7 @@ $$
 
 ---
 
-<!-- _class: title glass-card -->
+<!-- _class: title -->
 <!-- _paginate: false -->
 
 <div>
