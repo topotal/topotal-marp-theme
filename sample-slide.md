@@ -117,14 +117,6 @@ h:100 縦100pxで表示
 
 ---
 
-<!-- _class: image image-shadow -->
-
-# タイトル・図のみ(影付き)
-
-![w:800px](https://placehold.jp/ffffff/8c8c8c/300x200.png)
-
----
-
 <!-- _class: image -->
 
 # タイトル・図のみ(複数)

@@ -602,7 +602,7 @@ section {
         }
 
         p:has(img) {
-            height: calc(100% - 80px);
+            /* height: calc(100% - 80px); */
             position: absolute;
             top: 142px;
             right: 42px;
@@ -642,7 +642,7 @@ section {
         }
 
         p:has(img) {
-            height: calc(100% - 80px);
+            /* height: calc(100% - 80px); */
             position: absolute;
             top: 142px;
             left: 42px;
@@ -655,12 +655,6 @@ section {
             &::after {
                 display: none;
             }
-        }
-    }
-
-    &.image-shadow {
-        img {
-            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
         }
     }
 
