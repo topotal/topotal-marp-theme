@@ -384,7 +384,7 @@ section {
         padding: 30px 60px 0 60px;
     }
 
-    >h1:first-child:not(.no-header > h1) {
+    >h1:first-child:not(.no-header > h1):not(.title > h1):not(.section > h1) {
         position: absolute;
         width: 100%;
         top: 0;
