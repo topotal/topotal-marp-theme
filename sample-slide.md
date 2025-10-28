@@ -177,7 +177,6 @@ h:100 縦100pxで表示
 # 文章と図を横並びに表現(図が左側)
 
 ![w:400px](https://placehold.jp/300x200.png)
-![w:400px](https://placehold.jp/300x200.png)
 
 - content-image-leftクラスは、左側に画像を配置するレイアウトを提供
 - デフォルトでは左側50%の幅になります
@@ -290,50 +289,18 @@ const users: User[] = [
   { id: 2, name: "鈴木花子", email: "hanako@example.com", isActive: false },
   { id: 3, name: "佐藤次郎", email: "jiro@example.com", isActive: true },
 ];
-
-function printActiveUsers(userList: User[]) {
-  console.log("アクティブなユーザー一覧:");
-  userList
-    .filter(user => user.isActive)
-    .forEach(user => {
-      console.log(`ID: ${user.id}, 名前: ${user.name}, メール: ${user.email}`);
-    });
-}
-
-function activateUser(userList: User[], id: number) {
-  const user = userList.find(u => u.id === id);
-  if (user) {
-    user.isActive = true;
-    console.log(`${user.name} をアクティブにしました。`);
-  } else {
-    console.log("該当ユーザーが見つかりません。");
-  }
-}
-
-printActiveUsers(users);
-activateUser(users, 2);
-printActiveUsers(users);
 ```
 
-コードの大きさに合わせて自動でコードブロック内のテキストが小さくなります
-
 ---
-# その他
 
-## 数式の表示
+# 数式の表示
 $$
 \sum_{i=1}^{n} x_i = x_1 + x_2 + \cdots + x_n
 $$
+---
 
+# カスタムCSSの適用
 
-## 折りたたみ
-<details>
-<summary>詳細を開く</summary>
-詳細内容をここに記載します
-</details>
-
-
-## カスタムCSSの適用
 <style>
 .highlight-box {
     background-color: #e3f2fd;
