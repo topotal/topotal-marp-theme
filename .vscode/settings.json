@@ -1,7 +1,4 @@
 {
-  "markdown.marp.themes": [
-    "./topotal-theme.css"
-  ],
   "markdown.marp.html": true,
   "chat.agent.enabled": false
 }

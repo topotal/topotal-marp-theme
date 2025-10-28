@@ -1,9 +1,10 @@
 ---
 marp: true
-theme: topotal
 paginate: true
 title: Topotal Marp Theme
 description: TopotalのスライドデザインをベースにしたMarpテーマ
+style: |
+  @import './topotal-theme.css';
 ---
 
 <!-- _class: title -->

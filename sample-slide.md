@@ -1,9 +1,10 @@
 ---
 marp: true
-theme: topotal
 paginate: true
 title: サンプルスライド
 description: サンプルスライドです。
+style: |
+  @import './topotal-theme.css';
 ---
 
 <!--
@@ -14,8 +15,7 @@ description: サンプルスライドです。
 <!-- _class: title　-->
 <!-- _paginate: false -->
 
-# このページはタイトルに適していますあ
-
+# このページはタイトルに適しています
 20XX/XX/XX ここには日付や執筆者の名前など
 必要な情報を入力して下さい
 
