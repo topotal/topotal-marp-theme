@@ -10,14 +10,14 @@
 
 :root {
     /* Topotalブランドカラー（Figmaデザインより） */
-    --topotal-blue: #1E90D8;
-    --topotal-blue-light: #4A82FF;
+    --topotal-blue: #008BD1;
+    --topotal-blue-light: #4CC0EF;
     --topotal-mint: #8FF5E9;
     --topotal-purple: #C249FF;
     --topotal-blue-deep: #1765C1;
 
     /* アクセントカラー */
-    --blue-very-deep: #1E90D8;
+    --blue-very-deep: #008BD1;
     --red-deep: #DF3756;
 
     /* グレースケール（Topotal規定） */
@@ -432,30 +432,57 @@ section {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         background: url('./images/slide_title_background.png') no-repeat center center;
         background-size: cover;
-        padding: 164px 164px;
+        padding: 84px;
+        padding-bottom: 184px;
         position: relative;
 
         h1 {
-            text-align: center;
-            color: var(--topotal-blue);
-            font-size: 128px;
-            font-weight: 900;
-            letter-spacing: 12.48px;
-            background: var(--white);
-            padding: 11px 36px;
+            font-size: 64px;
+            font-weight: 700;
+            letter-spacing: 8.32px;
+            padding: 8px 26.667px;
             width: fit-content;
-            margin: 0 auto;
-        }
+            margin: 0;
+            line-height: 1;
+            background: linear-gradient(90deg, var(--topotal-blue), var(--topotal-blue-light));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+            z-index: 1;
 
-        h2 {
-            color: var(--white);
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: white;
+                mix-blend-mode: multiply;
+                z-index: -1;
+                border-radius: 0;
+            }
+
+            & + h1 {
+                margin-top: 16px;
+            }
+
+            &:last-of-type {
+                margin-bottom: 32px;
+            }
         }
 
         p {
             color: var(--white);
+            font-size: 32px;
+            font-weight: 500;
+            letter-spacing: 3.2px;
+            line-height: 53.333px;
+            margin: 0;
         }
 
         &::after {
@@ -648,4 +675,3 @@ section {
     }
 
 }
-

@@ -1,10 +1,9 @@
 ---
 marp: true
 paginate: true
+theme: topotal
 title: サンプルスライド
 description: サンプルスライドです。
-style: |
-  @import './topotal-theme.css';
 ---
 
 <!--
@@ -15,9 +14,12 @@ style: |
 <!-- _class: title　-->
 <!-- _paginate: false -->
 
-# このページはタイトルに適しています
-20XX/XX/XX ここには日付や執筆者の名前など
-必要な情報を入力して下さい
+# MCPを活用して
+# VRChatと現実の境界を
+# 滑らかにする
+
+2025/11/18 CloudNative Days Winter 2025
+@sawa-zen
 
 ---
 
