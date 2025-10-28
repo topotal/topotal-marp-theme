@@ -56,22 +56,29 @@
 
 
     /* フォントサイズ変数 */
-    --font-size-title: 38px;
+    --font-size-h1: 64px;
+    --line-height-h1: 80px;
+    --margin-bottom-h1: 24px;
 
-    /* タイトル */
-    --font-size-large: 36px;
+    /* h1 */
+    --font-size-h2: 48px;
+    --line-height-h2: 56px;
+    --margin-bottom-h2: 20px;
 
-    /* 大きなテキスト */
-    --font-size-medium: 32px;
+    /* h2 */
+    --font-size-h3: 36px;
+    --line-height-h3: 48px;
+    --margin-bottom-h3: 16px;
 
-    /* 中サイズテキスト */
-    --font-size-body: 26px;
+    /* h3 */
+    --font-size-body: 28px;
+    --line-height-body: 36px;
+    --margin-bottom-body: 12px;
 
     /* 本文サイズ */
-    --font-size-small: 22px;
-
-    /* 小さなテキスト */
     --font-size-caption: 20px;
+    --line-height-caption: 28px;
+    --margin-bottom-caption: 8px;
 
     /* キャプション */
     --font-size-note: 16px;
@@ -378,13 +385,37 @@ section {
     background-image: none;
     font-family: var(--font-family);
     height: 100%;
-    padding: 128px 42px 84px 42px;
+    padding: 142px 42px 84px 42px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     position: relative;
     top: 0;
     left: 0;
+
+    h1 {
+        font-size: var(--font-size-h1);
+        line-height: var(--line-height-h1);
+        margin-bottom: var(--margin-bottom-h1);
+    }
+
+    h2 {
+        font-size: var(--font-size-h2);
+        line-height: var(--line-height-h2);
+        margin-bottom: var(--margin-bottom-h2);
+    }
+
+    h3 {
+        font-size: var(--font-size-h3);
+        line-height: var(--line-height-h3);
+        margin-bottom: var(--margin-bottom-h3);
+    }
+
+    p {
+        font-size: var(--font-size-body);
+        line-height: var(--line-height-body);
+        margin-bottom: var(--margin-bottom-body);
+    }
 
     &.no-header {
         padding: 30px 60px 0 60px;
@@ -401,17 +432,17 @@ section {
         padding-top: 42px;
         padding-left: 42px;
         padding-right: 8px;
-        padding-bottom: 20px;
+        padding-bottom: 8px;
         border-bottom: 1px solid var(--gray-dark);
         width: auto;
         font-size: 28px;
+        line-height: 56px;
     }
 
     &::after {
         position: absolute;
-        bottom: 0px;
-        right: 30px;
-        height: 80px;
+        bottom: 22px;
+        right: 42px;
         display: flex;
         align-items: center;
         padding: 0;
@@ -573,16 +604,13 @@ section {
         p:has(img) {
             height: calc(100% - 80px);
             position: absolute;
-            top: 80px;
-            right: 0;
+            top: 142px;
+            right: 42px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: flex-end;
             margin: 0;
-            padding-left: 16px;
-            padding-right: 20px;
-            background-color: var(--bg-accent);
 
             &::after {
                 display: none;
@@ -616,16 +644,13 @@ section {
         p:has(img) {
             height: calc(100% - 80px);
             position: absolute;
-            top: 80px;
-            left: 0;
+            top: 142px;
+            left: 42px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: flex-end;
             margin: 0;
-            padding-left: 20px;
-            padding-right: 16px;
-            background-color: var(--bg-accent);
 
             &::after {
                 display: none;
