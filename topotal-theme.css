@@ -232,14 +232,14 @@ ol {
     font-size: var(--font-size-body);
     color: var(--gray-medium);
     line-height: var(--line-height-loose);
-    padding-left: 0px;
+    padding-left: 32px;
     margin-top: 0;
-    margin-left: 22px;
+    margin-left: 0;
     margin-bottom: 8px;
 }
 
 ol {
-    margin-left: 32px;
+    padding-left: 40px;
 }
 
 li {
