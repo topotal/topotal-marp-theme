@@ -462,7 +462,14 @@ section {
         h1 {
             text-align: center;
             position: static;
-            color: var(--white);
+            color: var(--topotal-blue);
+            font-size: 96px;
+            font-weight: 700;
+            letter-spacing: 12.48px;
+            background: var(--white);
+            padding: 11px 36px;
+            width: fit-content;
+            margin: 0 auto;
         }
 
         h2 {
