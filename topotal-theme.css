@@ -441,8 +441,8 @@ section {
         h1 {
             text-align: center;
             color: var(--topotal-blue);
-            font-size: 96px;
-            font-weight: 700;
+            font-size: 128px;
+            font-weight: 900;
             letter-spacing: 12.48px;
             background: var(--white);
             padding: 11px 36px;
