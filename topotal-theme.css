@@ -394,7 +394,7 @@ section {
     }
 
     &.no-header {
-        padding: 42px;
+        padding: 84px;
     }
 
     >h1:first-child:not(.no-header > h1):not(.title > h1):not(.section > h1) {
