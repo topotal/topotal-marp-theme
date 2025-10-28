@@ -337,7 +337,7 @@ a:hover {
 
 /* 表 */
 table {
-    font-size: 18px;
+    font-size: var(--font-size-body);
     color: var(--gray-medium);
     border-collapse: collapse;
     width: 100%;
@@ -561,7 +561,6 @@ section {
 
     &.image {
         >p:has(img) {
-            height: 100%;
             display: flex;
             justify-content: space-around;
             align-items: center;
