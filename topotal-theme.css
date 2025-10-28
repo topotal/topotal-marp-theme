@@ -434,15 +434,29 @@ section {
         flex-direction: column;
         align-items: center;
         background: linear-gradient(90deg, var(--topotal-blue) 0%, var(--topotal-blue-light) 100%);
-        padding: 100px;
+        padding: 164px 164px;
+        position: relative;
 
-        > * {
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            right: 100px;
+            bottom: 100px;
             background: rgba(255, 255, 255, 0.16);
             backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.52);
             border-radius: 32px;
-            padding: 64px;
-            width: 100%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        > * {
+            position: relative;
+            z-index: 1;
         }
 
         h1 {
@@ -459,7 +473,7 @@ section {
             color: var(--white);
         }
 
-        ::after {
+        &::after {
             display: none;
         }
 
