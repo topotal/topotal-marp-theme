@@ -58,7 +58,7 @@
     /* フォントサイズ変数 */
     --font-size-h1: 64px;
     --line-height-h1: 80px;
-    --margin-bottom-h1: 24px;
+    --margin-bottom-h1: 20px;
 
     /* h1 */
     --font-size-h2: 48px;
@@ -68,17 +68,17 @@
     /* h2 */
     --font-size-h3: 36px;
     --line-height-h3: 48px;
-    --margin-bottom-h3: 16px;
+    --margin-bottom-h3: 20px;
 
     /* h3 */
     --font-size-body: 28px;
     --line-height-body: 36px;
-    --margin-bottom-body: 12px;
+    --margin-bottom-body: 20px;
 
     /* 本文サイズ */
     --font-size-caption: 20px;
     --line-height-caption: 28px;
-    --margin-bottom-caption: 8px;
+    --margin-bottom-caption: 20px;
 
     /* キャプション */
     --font-size-note: 16px;
