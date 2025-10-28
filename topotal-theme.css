@@ -55,30 +55,25 @@
     --border-color: #B3D9FF;
 
 
-    /* フォントサイズ変数 */
-    --font-size-h1: 64px;
-    --line-height-h1: 80px;
-    --margin-bottom-h1: 20px;
-
     /* h1 */
-    --font-size-h2: 48px;
-    --line-height-h2: 56px;
-    --margin-bottom-h2: 20px;
+    --font-size-h1: 64px;
+    --line-height-h1: 84px;
 
     /* h2 */
-    --font-size-h3: 36px;
-    --line-height-h3: 48px;
-    --margin-bottom-h3: 20px;
+    --font-size-h2: 48px;
+    --line-height-h2: 72px;
 
     /* h3 */
-    --font-size-body: 28px;
-    --line-height-body: 36px;
-    --margin-bottom-body: 20px;
+    --font-size-h3: 36px;
+    --line-height-h3: 64px;
 
-    /* 本文サイズ */
+    /* body */
+    --font-size-body: 28px;
+    --line-height-body: 48px;
+
+    /* キャプション */
     --font-size-caption: 20px;
     --line-height-caption: 28px;
-    --margin-bottom-caption: 20px;
 
     /* キャプション */
     --font-size-note: 16px;
@@ -180,26 +175,6 @@ h3 {
 
 h4 {
     font-size: var(--font-size-body);
-    color: var(--gray-medium);
-    line-height: var(--line-height-normal);
-    font-weight: 600;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding-bottom: 0;
-}
-
-h5 {
-    font-size: var(--font-size-small);
-    color: var(--gray-medium);
-    line-height: var(--line-height-normal);
-    font-weight: 600;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    padding-bottom: 0;
-}
-
-h6 {
-    font-size: var(--font-size-caption);
     color: var(--gray-medium);
     line-height: var(--line-height-normal);
     font-weight: 600;
@@ -385,7 +360,7 @@ section {
     background-image: none;
     font-family: var(--font-family);
     height: 100%;
-    padding: 142px 42px 84px 42px;
+    padding: 156px 84px 84px 84px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -419,7 +394,7 @@ section {
     }
 
     &.no-header {
-        padding: 30px 60px 0 60px;
+        padding: 42px;
     }
 
     >h1:first-child:not(.no-header > h1):not(.title > h1):not(.section > h1) {
@@ -604,8 +579,8 @@ section {
         p:has(img) {
             /* height: calc(100% - 80px); */
             position: absolute;
-            top: 142px;
-            right: 42px;
+            top: 156px;
+            right: 84px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -644,8 +619,8 @@ section {
         p:has(img) {
             /* height: calc(100% - 80px); */
             position: absolute;
-            top: 142px;
-            left: 42px;
+            top: 156px;
+            left: 84px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -691,11 +666,18 @@ section {
 
     &.column-layout {
         flex-direction: row;
-        gap: 16px;
+        gap: 20px;
         justify-content: space-around;
 
         .column {
             width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            h1, h2, h3, p {
+                margin-bottom: 0;
+            }
         }
     }
 
