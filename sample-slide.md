@@ -367,6 +367,21 @@ $$
 
 ---
 
+<!-- _class: title glass-card -->
+<!-- _paginate: false -->
+
+<div>
+
+# グラスモーフィズムカード
+
+## 半透明カードで囲む
+
+このクラスを使用すると、Figmaデザインのような半透明のグラスモーフィズムカードで要素を囲むことができます。
+
+</div>
+
+---
+
 <!-- _class: all-text-center align-center -->
 
 # ぜひお試しください！

@@ -628,4 +628,15 @@ section {
         }
     }
 
+    /* グラスモーフィズムカード */
+    &.glass-card {
+        > * {
+            background: rgba(255, 255, 255, 0.16);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.52);
+            border-radius: 32px;
+            padding: 64px;
+        }
+    }
+
 }
