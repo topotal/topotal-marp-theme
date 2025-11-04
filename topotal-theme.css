@@ -276,6 +276,9 @@ em {
     background-color: var(--bg-accent-code);
     font-size: var(--font-size-small);
     margin: 0;
+    overflow: auto;
+    flex-shrink: 1;
+    min-height: 0;
 }
 
 /* 引用 */
@@ -360,14 +363,15 @@ section {
     background-image: none;
     font-family: var(--font-family);
     height: 100%;
-    padding: 156px 84px 84px 84px;
+    padding: 156px 84px 100px 84px;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     gap: 20px;
     position: relative;
     top: 0;
     left: 0;
+    box-sizing: border-box;
 
     h1 {
         font-size: var(--font-size-h1);
