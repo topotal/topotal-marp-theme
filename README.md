@@ -17,6 +17,45 @@ Topotal Marpテーマ セットアップスライドをご覧ください。
 
 https://topotal.github.io/topotal-marp-theme/index.html
 
+### GitHub Pages経由でテーマを利用する方法
+
+プロジェクトにテーマファイルをダウンロードせずに、GitHub Pages経由で直接テーマを利用できます。
+
+#### 1. Marp CLIでの利用
+
+```bash
+marp your-slide.md --theme https://topotal.github.io/topotal-marp-theme/topotal-theme.css --html
+```
+
+#### 2. VS Code Marp拡張機能での利用
+
+`.vscode/settings.json` に以下を追加：
+
+```json
+{
+  "markdown.marp.themes": [
+    "https://topotal.github.io/topotal-marp-theme/topotal-theme.css"
+  ]
+}
+```
+
+その後、マークダウンファイルの先頭に以下を記述：
+
+```markdown
+---
+marp: true
+theme: topotal-theme
+---
+```
+
+#### 配信されているアセット
+
+- **テーマCSS**: `https://topotal.github.io/topotal-marp-theme/topotal-theme.css`
+- **タイトル背景画像**: `https://topotal.github.io/topotal-marp-theme/images/slide_title_background.png`
+- **セクション背景画像**: `https://topotal.github.io/topotal-marp-theme/images/slide_section_background.png`
+
+これらのアセットは自動的にCSSから参照されるため、テーマを読み込むだけで利用可能です。
+
 ## 基本的な使用方法
 
 ### スライドタイプ

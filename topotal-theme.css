@@ -433,7 +433,7 @@ section {
         justify-content: center;
         flex-direction: column;
         align-items: flex-start;
-        background: url('./images/slide_title_background.png') no-repeat center center;
+        background: url('https://topotal.github.io/topotal-marp-theme/images/slide_title_background.png') no-repeat center center;
         background-size: cover;
         padding: 84px;
         padding-bottom: 184px;
@@ -493,7 +493,7 @@ section {
 
 
     &.section {
-        background: url('./images/slide_section_background.png') no-repeat center center;
+        background: url('https://topotal.github.io/topotal-marp-theme/images/slide_section_background.png') no-repeat center center;
         background-size: cover;
         background-color: var(--white);
         padding: 85.34px;
