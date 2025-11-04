@@ -276,6 +276,8 @@ em {
     background-color: var(--bg-accent-code);
     font-size: var(--font-size-small);
     margin: 0;
+    flex-shrink: 1;
+    min-height: 0;
 }
 
 /* 引用 */
