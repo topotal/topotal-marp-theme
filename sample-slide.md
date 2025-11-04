@@ -366,6 +366,12 @@ h:100 縦100pxで表示
 
 ---
 
+<style scoped>
+pre, marp-pre {
+  font-size: 80%;
+}
+</style>
+
 # このスライドのマークダウン
 
 ```markdown
@@ -407,6 +413,12 @@ h:100 縦100pxで表示
 
 
 ---
+
+<style scoped>
+pre, marp-pre {
+  font-size: 80%;
+}
+</style>
 
 # このスライドのマークダウン
 
@@ -460,7 +472,35 @@ h:100 縦100pxで表示
 
 ---
 
-# このスライドのマークダウン
+# 長いコードブロックの表示調整
+
+コードブロックが長い場合、スライドの下部にはみ出すことがあります。
+
+Marpの制限により、コードブロックは自動スケーリングされません。
+
+## 解決方法
+
+`<style scoped>` を使って、そのスライドだけフォントサイズを調整できます。
+
+````markdown
+<style scoped>
+pre, marp-pre {
+  font-size: 70%;
+}
+</style>
+````
+
+---
+
+<style scoped>
+pre, marp-pre {
+  font-size: 45%;
+}
+</style>
+
+# 実例：scoped styleを適用
+
+このスライドには `<style scoped>` でフォントサイズ45%を適用しています。
 
 ```markdown
 <!-- _class: column-layout -->
@@ -762,16 +802,7 @@ $$
 
 ---
 
-<!-- _class: all-text-center align-center -->
+<!-- _class: section -->
+<!-- _paginate: false -->
 
 # ぜひお試しください！
-
----
-
-# このスライドのマークダウン
-
-```markdown
-<!-- _class: all-text-center align-center -->
-
-# ぜひお試しください！
-```
