@@ -359,7 +359,7 @@ section {
     background-color: var(--bg-default);
     background-image: none;
     font-family: var(--font-family);
-    height: 100%;
+    height: 720px;
     padding: 156px 84px 100px 84px;
     display: flex;
     flex-direction: column;
@@ -369,6 +369,7 @@ section {
     top: 0;
     left: 0;
     box-sizing: border-box;
+    overflow: hidden;
 
     h1 {
         font-size: var(--font-size-h1);
