@@ -173,7 +173,7 @@ h:100 縦100pxで表示
 
 ---
 
-<!-- _class: content-image-left content-60 -->
+<!-- _class: content-image-left content-50 -->
 <!-- 幅を変えたい場合の設定「content-image-left content-60」など -->
 
 # 文章と図を横並びに表現(図が左側)

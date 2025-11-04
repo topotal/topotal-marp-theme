@@ -555,25 +555,43 @@ section {
 
     &.content-image-right {
         padding-right: 50%;
+        p:has(img) {
+            left: 50%;
+        }
 
         &.content-30 {
             padding-right: 70%;
+            p:has(img) {
+                left: 30%;
+            }
         }
 
         &.content-40 {
             padding-right: 60%;
+            p:has(img) {
+                left: 40%;
+            }
         }
 
         &.content-60 {
             padding-right: 40%;
+            p:has(img) {
+                left: 60%;
+            }
         }
 
         &.content-70 {
             padding-right: 30%;
+            p:has(img) {
+                left: 70%;
+            }
         }
 
         &.content-80 {
             padding-right: 20%;
+            p:has(img) {
+                left: 80%;
+            }
         }
 
         p:has(img) {
@@ -584,7 +602,7 @@ section {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: flex-end;
+            align-items: center;
             margin: 0;
 
             &::after {
@@ -595,25 +613,43 @@ section {
 
     &.content-image-left {
         padding-left: 50%;
+        p:has(img) {
+            right: 50%;
+        }
 
         &.content-30 {
             padding-left: 70%;
+            p:has(img) {
+                right: 30%;
+            }
         }
 
         &.content-40 {
             padding-left: 60%;
+            p:has(img) {
+                right: 40%;
+            }
         }
 
         &.content-60 {
             padding-left: 40%;
+            p:has(img) {
+                right: 60%;
+            }
         }
 
         &.content-70 {
             padding-left: 30%;
+            p:has(img) {
+                right: 70%;
+            }
         }
 
         &.content-80 {
             padding-left: 20%;
+            p:has(img) {
+                right: 80%;
+            }
         }
 
         p:has(img) {
@@ -624,7 +660,7 @@ section {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: flex-end;
+            align-items: center;
             margin: 0;
 
             &::after {
