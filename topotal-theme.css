@@ -275,7 +275,7 @@ em {
 :is(pre, marp-pre) {
     background-color: var(--bg-accent-code);
     font-size: var(--font-size-small);
-    margin-bottom: var(--margin-bottom-body);
+    margin-bottom: 0;
 }
 
 /* 引用 */
